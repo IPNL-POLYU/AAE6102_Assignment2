@@ -1,4 +1,4 @@
-# AAE6102 Assignment 1
+# AAE6102 Assignment 2
 
 ## Satellite Communication and Navigation (2024/25 Semester 2)
 
