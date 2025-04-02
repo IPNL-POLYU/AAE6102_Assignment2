@@ -5,6 +5,18 @@
 ### The Hong Kong Polytechnic University  
 **Department of Aeronautical and Aviation Engineering**  
 
+## Guidelines on Using AI  
+For Tasks 1, 4, and 5, please provide information on any GenAI models you used to help answer the assignment. You may use multiple models for your answers, and there is no page limit for the prompt you used.  
+Here is an example (Grade C if you only use this prompt):  
+```  
+Model: ChatGPT 4o mini  
+Prompt: Please give me the pros and cons of different differential GNSS for smartphone positioning.  
+Comment: It’s free and great for reasoning and answering questions.  
+Chatroom Link (if any): https://chatgpt.com/share/67ecb200-5da8-8003-8a48-374457b35f18
+```  
+
+---
+
 **Due Date:** 24 April 2025
 
 ### Overview  
