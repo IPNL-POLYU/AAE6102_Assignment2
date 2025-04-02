@@ -5,6 +5,10 @@
 ### The Hong Kong Polytechnic University  
 **Department of Aeronautical and Aviation Engineering**  
 
+### Overview  
+This repository contains Assignment 2 for AAE6102: Satellite Communication and Navigation. Resources related to this assignment can be found in the repository.
+
+
 ## Guidelines on Using AI  
 For Tasks 1, 4, and 5, please provide information on any GenAI models you used to help answer the assignment. You may use multiple models for your answers, and there is no page limit for the prompt you used.  
 Here is an example (Grade C if you only use this prompt):  
@@ -19,8 +23,6 @@ Chatroom Link (if any): https://chatgpt.com/share/67ecb200-5da8-8003-8a48-374457
 
 **Due Date:** 24 April 2025
 
-### Overview  
-This repository contains Assignment 2 for AAE6102: Satellite Communication and Navigation. Resources related to this assignment can be found in the repository.
 
 ## Assignment Tasks
 
