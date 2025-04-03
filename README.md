@@ -65,8 +65,6 @@ GNSS is not only used for positioning and navigation but also has significant ap
 - **GNSS Reflectometry (GNSS-R)**
 - **GNSS Interferometric Reflectometry (GNSS-IR)**
 - **GNSS Radio Occultation (GNSS-RO)**
-- **Ionosphere mapping based GNSS ground station**
-- **GNSS seismology**
 
 
 ---
