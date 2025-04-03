@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/31ab6c7e-020a-4b69-b6a2-e6a39aafac23)# AAE6102 Assignment 2
+# AAE6102 Assignment 2
 
 ## Satellite Communication and Navigation (2024/25 Semester 2)
 
