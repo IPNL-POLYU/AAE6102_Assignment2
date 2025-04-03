@@ -40,14 +40,16 @@ Your objective is to improve the GNSS positioning performance using the "Urban" 
 (*Hint: The skymask can identify satellite visibility blockage by providing satellite azimuth and elevation angles.*)
 
 
-### Task 3 – RAIM (Receiver Autonomous Integrity Monitoring)  
-RAIM is a critical technique for detecting and excluding faulty GNSS measurements. In this task, you are required to:
+### Task 3 – GPS RAIM (Receiver Autonomous Integrity Monitoring)  
+RAIM is a critical technique for detecting and excluding faulty GPS measurements. In this task, you are required to:
 - Develop a **classic weighted RAIM algorithm [1]** to improve and monitor your positioning performance.
 - Based on your **weighted least squares (WLS) code from Assignment 1**, implement a weighted RAIM algorithm to process the provided **“Open-Sky” data**.
 - Ensure your solution effectively detects and mitigates the impact of faulty or low-quality measurements.
 - Compute the 3D protection level (PL) based on: 1). 10^-1 of probability of false alarm (P_fa), and 2). 10^-7 of probability of missed detection (P_md).
 - (Bonus) Evaluate the GNSS integrity monitoring performance using a Stanford Chart analysis, given that the 3D alarm limit (AL) is 50 meters. 
-Hint:  A threshold set at 5.33 σ, the probability that random Gaussian noise causes a value to exceed that threshold is only 1 in 10 million (10^-7) 
+
+Hint1: Calcuate GPS only solution so that the minimun degree of freedom is 4 (meaning you can use the same equations given in the lecture note)
+Hint2:  A threshold set at 5.33 σ, the probability that random Gaussian noise causes a value to exceed that threshold is only 1 in 10 million (10^-7) 
 
 [1] Walter, T., & Enge, P. (1995, September). Weighted RAIM for precision approach. In Proceedings of Ion GPS (Vol. 8, No. 1, pp. 1995-2004). Institute of Navigation. 
 https://web.stanford.edu/group/scpnt/gpslab/pubs/papers/Walter_IONGPS_1995_wraim.pdf 
