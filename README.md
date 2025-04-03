@@ -45,8 +45,8 @@ RAIM is a critical technique for detecting and excluding faulty GNSS measurement
 - Develop a **classic weighted RAIM algorithm [1]** to improve and monitor your positioning performance.
 - Based on your **weighted least squares (WLS) code from Assignment 1**, implement a weighted RAIM algorithm to process the provided **“Open-Sky” data**.
 - Ensure your solution effectively detects and mitigates the impact of faulty or low-quality measurements.
-- Compute the protection level based on: 1). 10^-1 of probability of false alarm (P_fa) and 2).   -2) 10^-7 of probability of missed detection (P_md).
-
+- Compute the 3D protection level (PL) based on: 1). 10^-1 of probability of false alarm (P_fa), and 2). 10^-7 of probability of missed detection (P_md).
+- (Bonus) Evaluate the GNSS integrity monitoring performance using a Stanford Chart analysis, given that the 3D alarm limit (AL) is 50 meters. 
 Hint:  A threshold set at 5.33 σ, the probability that random Gaussian noise causes a value to exceed that threshold is only 1 in 10 million (10^-7) 
 
 [1] Walter, T., & Enge, P. (1995, September). Weighted RAIM for precision approach. In Proceedings of Ion GPS (Vol. 8, No. 1, pp. 1995-2004). Institute of Navigation. 
