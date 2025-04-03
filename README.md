@@ -1,4 +1,4 @@
-# AAE6102 Assignment 2
+![image](https://github.com/user-attachments/assets/31ab6c7e-020a-4b69-b6a2-e6a39aafac23)# AAE6102 Assignment 2
 
 ## Satellite Communication and Navigation (2024/25 Semester 2)
 
@@ -65,6 +65,8 @@ GNSS is not only used for positioning and navigation but also has significant ap
 - **GNSS Reflectometry (GNSS-R)**
 - **GNSS Interferometric Reflectometry (GNSS-IR)**
 - **GNSS Radio Occultation (GNSS-RO)**
+- **Ionosphere mapping based GNSS ground station**
+- **GNSS seismology**
 
 
 ---
