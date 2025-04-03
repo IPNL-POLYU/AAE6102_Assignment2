@@ -44,9 +44,9 @@ Your objective is to improve the GNSS positioning performance using the "Urban" 
 RAIM is a critical technique for detecting and excluding faulty GPS measurements. In this task, you are required to:
 - Develop a **classic weighted RAIM algorithm [1]** to improve and monitor your positioning performance.
 - Based on your **weighted least squares (WLS) code from Assignment 1**, implement a weighted RAIM algorithm to process the provided **“Open-Sky” data**.
-- Ensure your solution effectively detects and excludes the impact of faulty or low-quality measurements.
-- (Bonus) Compute the 3D protection level (PL) based on: 1). 10^-2 of probability of false alarm (P_fa), and 2). 10^-7 of probability of missed detection (P_md).
-- (Bonus) Evaluate the GNSS integrity monitoring performance using a Stanford Chart analysis, given that the 3D alarm limit (AL) is 50 meters. The GPS pseudorange measurement sigma (σ) is 3m.
+- Ensure your solution effectively detects and excludes the impact of faulty or low-quality measurements. 
+- (Bonus) Compute the 3D protection level (PL) based on: 1). 10^-2 of probability of false alarm (P_fa), and 2). 10^-7 of probability of missed detection (P_md). The GPS pseudorange measurement sigma (σ) is 3m.
+- (Bonus) Evaluate the GNSS integrity monitoring performance using a Stanford Chart analysis, given that the 3D alarm limit (AL) is 50 meters. 
 
 Hint 1: Calculate the only solution so that the minimum degree of freedom is 4 (meaning you can use the same equations given in the lecture notes).
 
