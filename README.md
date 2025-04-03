@@ -77,5 +77,5 @@ GNSS is not only used for positioning and navigation but also has significant ap
   - **Dr. Hoi-Fung Ng** (hf-ivan.ng@connect.polyu.hk)  
   - Other **teaching assistants**  
   - The **course lecturers**  
-- **Deadline:** 24th April 2025  
+- **Deadline:** 1st May 2025  
 
