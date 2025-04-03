@@ -42,10 +42,15 @@ Your objective is to improve the GNSS positioning performance using the "Urban" 
 
 ### Task 3 – RAIM (Receiver Autonomous Integrity Monitoring)  
 RAIM is a critical technique for detecting and excluding faulty GNSS measurements. In this task, you are required to:
-- Develop a **weighted RAIM algorithm** to improve positioning performance and compute the protection level of the WLS solution.
+- Develop a **classic weighted RAIM algorithm [1]** to improve and monitor your positioning performance.
 - Based on your **weighted least squares (WLS) code from Assignment 1**, implement a weighted RAIM algorithm to process the provided **“Open-Sky” data**.
 - Ensure your solution effectively detects and mitigates the impact of faulty or low-quality measurements.
+- Compute the protection level based on
+  -1) 10^-1 of probability of false alarm (P_fa) and
+  -2) 10^-7 of probability of missed detection (P_md). Hint:  A threshold set at 5.33 σ, the probability that random Gaussian noise causes a value to exceed that threshold is only 1 in 10 million (10^-7) 
 
+[1] Walter, T., & Enge, P. (1995, September). Weighted RAIM for precision approach. In Proceedings of Ion GPS (Vol. 8, No. 1, pp. 1995-2004). Institute of Navigation. 
+https://web.stanford.edu/group/scpnt/gpslab/pubs/papers/Walter_IONGPS_1995_wraim.pdf 
 
 ### Task 4 – LEO Satellites for Navigation  
 Low Earth Orbit (LEO) satellites are widely used for communication purposes but present unique challenges when utilized for navigation. Write a short essay (500–1000 words) discussing:
