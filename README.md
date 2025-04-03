@@ -48,7 +48,8 @@ RAIM is a critical technique for detecting and excluding faulty GPS measurements
 - Compute the 3D protection level (PL) based on: 1). 10^-1 of probability of false alarm (P_fa), and 2). 10^-7 of probability of missed detection (P_md).
 - (Bonus) Evaluate the GNSS integrity monitoring performance using a Stanford Chart analysis, given that the 3D alarm limit (AL) is 50 meters. 
 
-Hint1: Calcuate GPS only solution so that the minimun degree of freedom is 4 (meaning you can use the same equations given in the lecture note)
+Hint1: Calcuate GPS only solution so that the minimun degree of freedom is 4 (meaning you can use the same equations given in the lecture notes).
+
 Hint2:  A threshold set at 5.33 σ, the probability that random Gaussian noise causes a value to exceed that threshold is only 1 in 10 million (10^-7) 
 
 [1] Walter, T., & Enge, P. (1995, September). Weighted RAIM for precision approach. In Proceedings of Ion GPS (Vol. 8, No. 1, pp. 1995-2004). Institute of Navigation. 
