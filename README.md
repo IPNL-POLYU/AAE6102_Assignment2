@@ -46,7 +46,7 @@ RAIM is a critical technique for detecting and excluding faulty GPS measurements
 - Based on your **weighted least squares (WLS) code from Assignment 1**, implement a weighted RAIM algorithm to process the provided **“Open-Sky” data**.
 - Ensure your solution effectively detects and excludes the impact of faulty or low-quality measurements.
 - (Bonus) Compute the 3D protection level (PL) based on: 1). 10^-1 of probability of false alarm (P_fa), and 2). 10^-7 of probability of missed detection (P_md).
-- (Bonus) Evaluate the GNSS integrity monitoring performance using a Stanford Chart analysis, given that the 3D alarm limit (AL) is 50 meters. 
+- (Bonus) Evaluate the GNSS integrity monitoring performance using a Stanford Chart analysis, given that the 3D alarm limit (AL) is 50 meters. The GPS pseudorange measurement sigma (σ) is 3m.
 
 Hint 1: Calculate the only solution so that the minimum degree of freedom is 4 (meaning you can use the same equations given in the lecture notes).
 
@@ -57,7 +57,7 @@ https://web.stanford.edu/group/scpnt/gpslab/pubs/papers/Walter_IONGPS_1995_wraim
 
 ### Task 4 – LEO Satellites for Navigation  
 Low Earth Orbit (LEO) satellites are widely used for communication purposes but present unique challenges when utilized for navigation. Write a short essay (500–1000 words) discussing:
-- The difficulties and challenges of using **LEO communication satellites** for GNSS navigation.
+- The difficulties and challenges of using **LEO communication satellites** for GNSS navigation. 
 
 
 ### Task 5 – GNSS Remote Sensing  
