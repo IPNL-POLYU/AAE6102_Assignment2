@@ -42,7 +42,7 @@ Your objective is to improve the GNSS positioning performance using the "Urban" 
 
 ### Task 3 – RAIM (Receiver Autonomous Integrity Monitoring)  
 RAIM is a critical technique for detecting and excluding faulty GNSS measurements. In this task, you are required to:
-- Develop a **weighted RAIM algorithm** to improve positioning performance.
+- Develop a **weighted RAIM algorithm** to improve positioning performance and compute the protection level of the WLS solution.
 - Based on your **weighted least squares (WLS) code from Assignment 1**, implement a weighted RAIM algorithm to process the provided **“Open-Sky” data**.
 - Ensure your solution effectively detects and mitigates the impact of faulty or low-quality measurements.
 
