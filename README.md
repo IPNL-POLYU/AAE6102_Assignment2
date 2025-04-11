@@ -21,7 +21,7 @@ Chatroom Link (if any): https://chatgpt.com/share/67ecb200-5da8-8003-8a48-374457
 
 ---
 
-**Due Date:** 24 April 2025
+**Due Date:** 1st May 2025
 
 
 ## Assignment Tasks
