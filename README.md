@@ -36,7 +36,7 @@ Write a short essay (500–1000 words) comparing the pros and cons of the follow
 ### Task 2 – GNSS in Urban Areas  
 Urban areas present significant challenges to GNSS positioning due to signal blockage, multipath effects, and poor satellite visibility. In this task, you are provided with a **skymask**, which indicates the elevation angle representing potential satellite visibility blockage for each corresponding azimuth angle, at the ground truth of the "Urban" environment in Assignment 1.
 
-Your objective is to improve the GNSS positioning performance using the "Urban" data provided, where the ground truth is (22.3198722, 114.209101777778, 3.0). You may apply any suitable methods, techniques, or algorithms to enhance accuracy.  
+Your objective is to improve the GNSS positioning performance using the "Urban" data provided. The elevation of the ground truth is 3.0 m, such that the ground truth in geodetic coordinates (latitude in degrees, longitude in degrees, and altitude in meters) is (22.3198722, 114.209101777778, 3.0). You may apply any suitable methods, techniques, or algorithms to enhance accuracy.  
 (*Hint: The skymask can identify satellite visibility blockage by providing satellite azimuth and elevation angles.*)
 
 
